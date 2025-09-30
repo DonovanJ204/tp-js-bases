@@ -14,8 +14,8 @@ for (let i = 0; i < 11; i++) {
     console.log("Cal: " + 7*[i]);
 }
 
-function saluer(prenom) {
-    return "Bonjour " + prenom + " ! Comment vas-tu ?";
-}
+const saluer = (prenom) => {
+    return "Bonjour, " + prenom + " ! Comment vas-tu ?";
+};
 
-console.log(saluer("Jeannot"));
+console.log(saluer("jeannot"));
