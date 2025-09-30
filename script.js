@@ -19,3 +19,11 @@ const saluer = (prenom) => {
 };
 
 console.log(saluer("jeannot"));
+
+
+function compterVoyelles(chaine) {
+  const voyelles = chaine.match(/[aeiouy]/gi);
+  return voyelles ? voyelles.length : 0;
+}
+
+console.log(compterVoyelles('Bonjour le monde'));
